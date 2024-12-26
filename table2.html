@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center" >Table rowspan, colspan</h1>
+    <table align="center" cellpading="10"cellspacing="0" border="1" bordercolor="blue">
+        <thead>
+            <tr bgcolor="pink">
+                <th>Emp id</th>
+                <th>Full Name</th>
+                <th>Mobile no.</th>
+                <th>Salary</th>
+                <th>Department</th>
+                <th>Date of Joining</th>
+                <th>Branch</th>
+                <th>Employment Type</th>
+                <th>Working days</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Arun Kumar</td>
+                <td>6202235822</td>
+                <td>Rs.50,000</td>
+                <td>Marketing</td>
+                <td rowspan="2">20 -05 - 2023</td>
+                <td rowspan="4">Bangalore White field</td>
+                <td rowspan="3">Permanent</td>
+                <td rowspan="6">Monday to Friday</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Sohail Kumar</td>
+                <td>9955286578</td>
+                <td>Rs.80,000</td>
+                <td>HR</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Raju Kumar</td>
+                <td>1234567890</td>
+                <td>Rs.90,000</td>
+                <td>IT</td> 
+                <td> 10 - 11 - 2023</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Manoj Kumar</td>
+                <td>8582068226</td>
+                <td>Rs.80,000</td>
+                <td>Operations</td> 
+                <td> 22 - 08 - 2023</td>
+                <td rowspan="2">Contract </td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>Sumit Kumar</td>
+                <td>8582068226</td>
+                <td colspan="4">Rs.30,000</td>
+                
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>Suman Bhardwaj</td>
+                <td>2525252525</td>
+                <td>Rs. 18,000</td>
+                <td>BPO</td>
+                <td> 22 - 05 - 2023</td>
+                <td>Pune</td>
+            
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr bgcolor="lightgrey">
+                <th>Emp id</th>
+                <th>Full Name</th>
+                <th>Mobile no.</th>
+                <th>Salary</th>
+                <th>Department</th>
+                <th>Date of Joining</th>
+                <th>Branch</th>
+                <th>Employment Type</th>
+                <th>Working days</th>
+
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
